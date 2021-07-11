@@ -6,3 +6,4 @@ Canal de Youtube Sacatucarrera. Código de los videos:
 - Getters y Setters - Como crear métodos en Java - Eclipse: https://www.youtube.com/watch?v=IduSJa4y5FI&list=PLsCx0xYeG_x1jKo66MBat-_3_1KTVnkBz&index=2&t=1s
 - If y Else en Java - Eclipse: https://www.youtube.com/watch?v=18D1MCXoJyY&list=PLsCx0xYeG_x1jKo66MBat-_3_1KTVnkBz&index=1
 - Modo Debug - Como saber si un numero es par o impar - Bucle While - Java Eclipse: https://youtu.be/rkTRHfDZAeE
+- Ejecución de código según el valor de una variable - Switch: https://youtu.be/ObFbRrgs8hE
