@@ -45,9 +45,12 @@ boolean automatico = true;
 		comparaRuedasCoches(ferrari,furgoneta);
 		comparaRuedasCoches(ferrari,tesla);
 		
-		reduceRuedasCoche(furgoneta,trailer);
+		//reduceRuedasCoche(furgoneta,trailer);
+		//reduceRuedasCoche(furgoneta,trailer);
 		
-		reduceRuedasCoche(furgoneta,trailer);
+		identificaCoche(trailer.getNumeroRuedas());
+		identificaCoche(ferrari.getNumeroRuedas());
+		identificaCoche(furgoneta.getNumeroRuedas());
 		
 	}
 	
@@ -134,6 +137,30 @@ boolean automatico = true;
 			}
 			
 		} 
+		
+	}
+	
+	public static void identificaCoche(int NR){
+		
+		switch(NR) {
+		
+		case 4:
+			//Lineas de codigo de cada caso del switch
+			System.out.println("Este vehículo es un coche.");
+			break;
+			
+		case 8:
+			System.out.println("Este vehículo es un trailer o camion.");
+			break;
+			
+		case 2:
+			System.out.println("Este vehículo es una moto.");
+			break;
+			
+		default:
+			System.out.println("Este vehículo no esta identificado.");	
+		
+		}
 		
 	}
 	
