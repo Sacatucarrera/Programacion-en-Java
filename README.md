@@ -7,3 +7,4 @@ Canal de Youtube Sacatucarrera. Código de los videos:
 - If y Else en Java - Eclipse: https://www.youtube.com/watch?v=18D1MCXoJyY&list=PLsCx0xYeG_x1jKo66MBat-_3_1KTVnkBz&index=1
 - Modo Debug - Como saber si un numero es par o impar - Bucle While - Java Eclipse: https://youtu.be/rkTRHfDZAeE
 - Ejecución de código según el valor de una variable - Switch: https://youtu.be/ObFbRrgs8hE
+- Extraccion de caracteres de un String - Bucle for: https://youtu.be/9vKYXNh903Q
