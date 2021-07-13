@@ -52,6 +52,7 @@ boolean automatico = true;
 		identificaCoche(ferrari.getNumeroRuedas());
 		identificaCoche(furgoneta.getNumeroRuedas());
 		
+		sacaMatricula(ferrari.getMatricula());
 	}
 	
 	//Getter
@@ -160,6 +161,16 @@ boolean automatico = true;
 		default:
 			System.out.println("Este vehículo no esta identificado.");	
 		
+		}
+		
+	}
+	
+	public static void sacaMatricula(String matricula) {
+		
+		for(int i = matricula.length() - 1; i >= 0;i--) { 
+			
+			System.out.println(matricula.charAt(i));
+			
 		}
 		
 	}
