@@ -53,6 +53,20 @@ boolean automatico = true;
 		identificaCoche(furgoneta.getNumeroRuedas());
 		
 		sacaMatricula(ferrari.getMatricula());
+		
+		//Arrays
+		Coche[] coches = new Coche[4];
+		coches[1] = trailer;
+		coches[2] = ferrari;
+		coches[3] = furgoneta;
+		coches[0] = tesla;
+		
+		for(int i = 0; i < coches.length;i++) { 
+			
+			System.out.println("El coche con identificador " + coches[i] + " tiene la matricula " + coches[i].getMatricula());
+			
+		}
+		
 	}
 	
 	//Getter
