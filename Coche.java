@@ -6,7 +6,7 @@
  * @author marcosgt11
  *
  */
-public class Coche {
+public class Coche implements FabricaDeCoches{
 int numeroRuedas;
 String matricula;
 boolean automatico = true;
@@ -113,7 +113,7 @@ boolean automatico = true;
 		
 	}
 	
-	public static void reduceRuedasCoche(Coche a, Coche b) {
+	public void reduceRuedasCoche(Coche a, Coche b) {
 		
 		//Secuencia de control while
 		while(a.getNumeroRuedas() != b.getNumeroRuedas()){
@@ -188,5 +188,7 @@ boolean automatico = true;
 		}
 		
 	}
+
+
 	
 }
