@@ -9,3 +9,4 @@ Canal de Youtube Sacatucarrera. Código de los videos:
 - Ejecución de código según el valor de una variable - Switch: https://youtu.be/ObFbRrgs8hE
 - Extraccion de caracteres de un String - Bucle for: https://youtu.be/9vKYXNh903Q
 - Longitud y Posicion de un Array: https://youtu.be/QzhDX8LkcTw
+- Estandarización de métodos entre clases - Interfaces Java: https://youtu.be/2xwAWTaaVsY
