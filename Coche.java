@@ -18,6 +18,28 @@ boolean automatico = true;
 		matricula = mat;
 		// TODO Auto-generated constructor stub
 	}
+	
+	//Enumerados
+	
+public enum TiposVehiculos{
+	Coche("AAA",4), Moto("BBB",2), Camion("CCC",6), Furgoneta("DDD",4);
+	
+	private String LetrasMatricula;
+	private int nRuedas;
+	
+	private TiposVehiculos(String LetrasMatricula,int nRuedas) {
+		this.LetrasMatricula = LetrasMatricula;
+		this.nRuedas = nRuedas;
+	}
+	
+	public String getLetrasMatricula() {
+		return LetrasMatricula;
+	}
+	
+	public int getNRuedas() {
+		return nRuedas;
+	}
+}
 
 	/**
 	 * @param args
@@ -66,6 +88,15 @@ boolean automatico = true;
 			System.out.println("El coche con identificador " + coches[i] + " tiene la matricula " + coches[i].getMatricula());
 			
 		}
+		
+		//Enumerados
+		TiposVehiculos car = TiposVehiculos.Coche;
+		TiposVehiculos moto = TiposVehiculos.Moto;
+		TiposVehiculos.values();
+		car.name();
+		car.ordinal();
+		car.compareTo(moto);
+		car.getLetrasMatricula();
 		
 	}
 	
