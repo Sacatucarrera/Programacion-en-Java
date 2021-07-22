@@ -41,10 +41,7 @@ public enum TiposVehiculos{
 	}
 }
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 		System.out.println("Hola estudiantes!!");
 		Coche ferrari = new Coche(4,"sacatucarrera");
@@ -97,6 +94,8 @@ public enum TiposVehiculos{
 		car.ordinal();
 		car.compareTo(moto);
 		car.getLetrasMatricula();
+		
+		System.out.println(Ejercicio1(1,3));
 		
 	}
 	
@@ -219,7 +218,40 @@ public enum TiposVehiculos{
 		}
 		
 	}
+	
+	//EXCEPCIONES
+	
+	/*
+	 * Ejercicio 1. Cree un metodo para calcular el resultado de la serie: 
+	 * sumatorio desde k hasta n de (3k - 2/(n-3))
+	 */
 
+public static int Ejercicio1 (int k, int n) throws Exception{
 
+	if(n == 3) {
+		throw new ArithmeticException("El valor de n provoca una division entre 0");
+	}
+	int resultado = 0;
+	
+//	try {
+//	
+//	for(int i = k; i <= n; i ++) {
+//	resultado += (3*i - 2/(n-3));
+//	}
+//	
+//	}
+//	catch(Exception e){
+//		
+//		System.out.print("Hemos detectado la excepcion" + e);
+//		
+//	}
+		
+		for(int i = k; i <= n; i ++) {
+		resultado += (3*i - 2/(n-3));
+		}
+			
+	return resultado;
+	
+}
 	
 }
