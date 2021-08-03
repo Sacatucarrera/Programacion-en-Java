@@ -1,11 +1,19 @@
-/**
- * 
- */
+//Comentarios de una línea
 
 /**
- * @author marcosgt11
+ * Comentarios de varias lineas
  *
  */
+
+//Documentacion antes de cada clase
+
+/** Clase Coche empleada para fabricar coches.
+ * 
+ * @author sacatucarrera
+ * @version 1.0
+ *
+ */
+
 public class Coche implements FabricaDeCoches{
 int numeroRuedas;
 String matricula;
@@ -105,6 +113,9 @@ public enum TiposVehiculos{
 	}
 	
 	//Setter
+	/**
+	 * @param nuevoNumeroRuedas - Nuevo numero de ruedas del coche
+	 */
 	public void setNumeroRuedas(int nuevoNumeroRuedas){
 		numeroRuedas = nuevoNumeroRuedas;
 	}
@@ -221,11 +232,21 @@ public enum TiposVehiculos{
 	
 	//EXCEPCIONES
 	
-	/*
+	/**
 	 * Ejercicio 1. Cree un metodo para calcular el resultado de la serie: 
 	 * sumatorio desde k hasta n de (3k - 2/(n-3))
 	 */
-
+	
+	//Documentacion antes de cada metodo
+	
+	/** Ejercicio 1. Calcula la serie especificada en el enunciado.
+	 * 
+	 * @param k - Valor k de la serie especificada
+	 * @param n - Valor n de la serie especificada
+	 * @return int - Entero resultado de completar la serie dados k y n
+	 * @throws Exception - Lanza excepcion de division entre 0 cuando el valor de n = 3
+	 */
+	
 public static int Ejercicio1 (int k, int n) throws Exception{
 
 	if(n == 3) {
