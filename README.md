@@ -13,3 +13,4 @@ Canal de Youtube Sacatucarrera. Código de los videos:
 - Estructuras de datos complejas - Enumerados: https://youtu.be/lQ99yH32TNA
 - Calcular el resultado de una serie matemática y Excepciones en Java: https://youtu.be/Ne3ViuXiw0U
 - Cómo documentar tu código en Java: https://youtu.be/B-vBNGTQ6Uw
+- Lectura de Strings en Java - Scanner: https://youtu.be/PItFQUv_AkA
