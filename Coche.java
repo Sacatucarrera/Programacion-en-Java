@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 //Comentarios de una línea
 
 /**
@@ -51,6 +53,7 @@ public enum TiposVehiculos{
 
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
+		
 		System.out.println("Hola estudiantes!!");
 		Coche ferrari = new Coche(4,"sacatucarrera");
 		System.out.println(ferrari);
@@ -103,7 +106,10 @@ public enum TiposVehiculos{
 		car.compareTo(moto);
 		car.getLetrasMatricula();
 		
-		System.out.println(Ejercicio1(1,3));
+		System.out.println(Ejercicio1(1,2));
+		
+		Coche prueba = new Coche(4,"5555 SAC");
+		leerMatriculas(prueba.getMatricula());
 		
 	}
 	
@@ -273,6 +279,30 @@ public static int Ejercicio1 (int k, int n) throws Exception{
 			
 	return resultado;
 	
+}
+
+//Scanner
+
+public static void leerMatriculas(String matricula) {
+	Scanner sc = new Scanner(matricula);
+	
+	// Formato matricula Caracteres Enteros
+	if(sc.hasNext()) {
+		String mat = sc.next();
+		
+		if(sc.hasNextInt()) {
+			int mat2 = sc.nextInt();
+			System.out.println("El coche detectado tiene la matricula " + mat + " " + mat2);
+		}
+		else {
+			System.out.println("La matricula leida no posee el formato correcto");
+		}
+	}
+	else {
+		System.out.println("La matricula leida no posee el formato correcto");
+	}
+	
+	sc.close();
 }
 	
 }
