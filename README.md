@@ -14,3 +14,4 @@ Canal de Youtube Sacatucarrera. Código de los videos:
 - Calcular el resultado de una serie matemática y Excepciones en Java: https://youtu.be/Ne3ViuXiw0U
 - Cómo documentar tu código en Java: https://youtu.be/B-vBNGTQ6Uw
 - Lectura de Strings en Java - Scanner: https://youtu.be/PItFQUv_AkA
+- Clases abstractas en Java: https://youtu.be/H1bFCHbMH54
