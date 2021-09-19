@@ -16,16 +16,17 @@ import java.util.Scanner;
  *
  */
 
-public class Coche implements FabricaDeCoches{
+public class Coche extends Vehiculo implements FabricaDeCoches{
 int numeroRuedas;
-String matricula;
 boolean automatico = true;
+int precio = 30;
+
 	/**
 	 * 
 	 */
-	public Coche(int NumeroRuedas, String mat) {
+	public Coche(int NumeroRuedas, String matricula) {
+		super(matricula);
 		this.numeroRuedas = NumeroRuedas;
-		matricula = mat;
 		// TODO Auto-generated constructor stub
 	}
 	
@@ -111,6 +112,8 @@ public enum TiposVehiculos{
 		Coche prueba = new Coche(4,"5555 SAC");
 		leerMatriculas(prueba.getMatricula());
 		
+		ferrari.precioVehiculo();
+		ferrari.getMatricula();
 	}
 	
 	//Getter
@@ -124,20 +127,6 @@ public enum TiposVehiculos{
 	 */
 	public void setNumeroRuedas(int nuevoNumeroRuedas){
 		numeroRuedas = nuevoNumeroRuedas;
-	}
-
-	/**
-	 * @return the matricula
-	 */
-	public String getMatricula() {
-		return matricula;
-	}
-
-	/**
-	 * @param matricula the matricula to set
-	 */
-	public void setMatricula(String matricula) {
-		this.matricula = matricula;
 	}
 	
 	//Metodo comparativo de ruedas de coches
@@ -303,6 +292,13 @@ public static void leerMatriculas(String matricula) {
 	}
 	
 	sc.close();
+}
+
+@Override
+public int precioVehiculo() {
+	System.out.println("El precio del vehiculo es de " + 30*4 + " euros.");
+	// TODO Auto-generated method stub
+	return 30*4;
 }
 	
 }
