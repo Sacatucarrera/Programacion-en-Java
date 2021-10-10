@@ -15,3 +15,4 @@ Canal de Youtube Sacatucarrera. Código de los videos:
 - Cómo documentar tu código en Java: https://youtu.be/B-vBNGTQ6Uw
 - Lectura de Strings en Java - Scanner: https://youtu.be/PItFQUv_AkA
 - Clases abstractas en Java: https://youtu.be/H1bFCHbMH54
+- Tests en Java: https://youtu.be/CBpTbvyw4rk
