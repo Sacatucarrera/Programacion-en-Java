@@ -108,6 +108,7 @@ public enum TiposVehiculos{
 		car.getLetrasMatricula();
 		
 		System.out.println(Ejercicio1(1,2));
+		System.out.println(Ejercicio1(4,6));
 		
 		Coche prueba = new Coche(4,"5555 SAC");
 		leerMatriculas(prueba.getMatricula());
